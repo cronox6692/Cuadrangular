@@ -36,7 +36,7 @@ CREATE TABLE `valores` (
   `empates` int(5) UNSIGNED NOT NULL,
   `goles_favor` int(5) UNSIGNED NOT NULL,
   `goles_contra` int(5) UNSIGNED NOT NULL,
-  `diferencia_goles` int(5) UNSIGNED NOT NULL
+  `diferencia_goles` int(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
